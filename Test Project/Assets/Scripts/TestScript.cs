@@ -11,5 +11,6 @@ public class TestScript : MonoBehaviour {
 
     private void Update() {
         obj.transform.Translate(Vector3.forward);
+        obj.transform.Rotate(Vector3.right);
     }
 }
